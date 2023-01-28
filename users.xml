@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<User-Detail totalUsers="">
+    <!--    <User>-->
+    <!--        <username/>-->
+    <!--        <salt/>-->
+    <!--        <hmac/>-->
+    <!--    </User>-->
+
+    <User>
+        <username>1</username>
+        <salt>[B@647fd699</salt>
+        <hmac>
+            RDIxMDcxMTVEQUZCODM5MjQ4NkM1RDg5RTE0NjcyQjBDN0Y5NTZDMDQ2NTQ4NERCM0VCOUQzMTVEQTU0MjFCNThGOEVCRDY5QzdCNjRBNjI1NzkyNEVDQjA1NjA5REM5NzgzNzZGNDRFRjMwQTlDQzMwN0YxQ0ExNzc1Q0NFOTI=
+        </hmac>
+    </User>
+</User-Detail>
