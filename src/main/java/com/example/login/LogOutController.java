@@ -9,10 +9,13 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
@@ -29,18 +32,9 @@ import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
-import org.bouncycastle.jce.provider.BouncyCastleProvider;
-
-
 import static com.example.login.KeyStore.LoadFromKeyStore;
-import static com.example.login.KeyStore.StoreToKeyStore;
 
 public class LogOutController implements Initializable {
 

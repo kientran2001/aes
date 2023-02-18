@@ -5,11 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import java.io.IOException;
-
-import static com.example.login.KeyStore.StoreToKeyStore;
 
 public class Main extends Application {
     @Override

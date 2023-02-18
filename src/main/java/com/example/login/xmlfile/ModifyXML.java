@@ -1,17 +1,18 @@
 package com.example.login.xmlfile;
 
 import com.example.login.Account;
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
-import javax.xml.parsers.*;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.io.File;
 
 public class ModifyXML {
     public static void addUser(String username, String salt, String hmac) {

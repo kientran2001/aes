@@ -1,7 +1,6 @@
 package com.example.login;
 
 import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import java.io.*;
 
 public class KeyStore {

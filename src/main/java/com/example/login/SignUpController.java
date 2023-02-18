@@ -5,10 +5,8 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
-import javafx.scene.layout.StackPane;
 
 import java.net.URL;
-import java.security.SecureRandom;
 import java.util.ResourceBundle;
 
 public class SignUpController implements Initializable {
